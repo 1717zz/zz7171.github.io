@@ -404,3 +404,45 @@ table a {
   margin-bottom: 10px;
   font-size: 16px;
 }
+
+@media (max-width: 768px) {
+  .cards-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-text,
+  .right-cards {
+    width: 100%;
+  }
+
+  .programme-card {
+    width: 90%;
+  }
+
+  .news-item {
+    width: 90%;
+  }
+
+  table {
+    width: 100%;
+    font-size: 16px;
+    display: block;
+    overflow-x: auto;
+  }
+
+  .intro .content h1,
+  .intro .content p {
+    font-size: 22px;
+  }
+
+  .admissions-form h1,
+  .contact-form h1 {
+    font-size: 26px;
+  }
+
+  #admissions-form,
+  #contact-form {
+    padding: 10px;
+  }
+}
